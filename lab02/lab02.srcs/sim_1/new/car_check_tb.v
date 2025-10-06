@@ -1,15 +1,15 @@
 `timescale 1ns/1ps
 
-module fsm_tb;
+module car_check_tb;
 
     reg clk;
     reg rst;
     reg a;
     reg b;
-    wire [2:0]out;
+    wire [3:0]out;
 
     // Instantiate DUT (Device Under Test)
-    fsm dut (
+    car_check dut (
         .clk(clk),
         .rst(rst),
         .a(a),
@@ -31,18 +31,20 @@ module fsm_tb;
         #12; 
         rst = 0;
 
-        // === Test Sequences ===
-        // 1. Apply 'a' then 'b'
-        #10 a = 0; b = 1;
-        #10 a = 1; b = 1;  // should go to sensab
-        #10 a = 1; b = 0;  // should reach enter -> out asserted
-        #10 a = 0; b = 0;  // should reach enter -> out asserted
-
+        repeat (3) begin 
+            #10 a = 0; b = 1;
+            #10 a = 1; b = 1;  // should go to sensab
+            #10 a = 1; b = 0;  // should reach enter -> out asserted
+            #10 a = 0; b = 0;  // should reach enter -> out asserted
+        end
         
-        #10 a = 1; b = 0;
-        #10 a = 1; b = 1;  // should go to sensab
-        #10 a = 0; b = 1;  // should reach enter -> out asserted
-        #10 a = 0; b = 0;  // should reach enter -> out asserted
+        repeat (3) begin        
+            #10 a = 1; b = 0;
+            #10 a = 1; b = 1;  // should go to sensab
+            #10 a = 0; b = 1;  // should reach enter -> out asserted
+            #10 a = 0; b = 0;  // should reach enter -> out asserted
+        end
+        
 
 
         // Finish simulation

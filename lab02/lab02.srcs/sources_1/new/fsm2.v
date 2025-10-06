@@ -5,7 +5,7 @@ module fsm (
     input  rst,
     input  a,
     input  b,
-    output out
+    output [2:0]out
 );
 
     parameter wt    = 3'b000,

@@ -33,19 +33,17 @@ module fsm_tb;
 
         // === Test Sequences ===
         // 1. Apply 'a' then 'b'
-        #10 a = 1; b = 0;
+        #10 a = 0; b = 1;
         #10 a = 1; b = 1;  // should go to sensab
+        #10 a = 1; b = 0;  // should reach enter -> out asserted
         #10 a = 0; b = 0;  // should reach enter -> out asserted
 
-//        // 2. Apply 'b' then 'a'
-//        #20 a = 0; b = 1;
-//        #10 a = 1; b = 1;  // should go to sensba
-//        #10 a = 0; b = 0;  // should reach exit -> out asserted
+        
+        #10 a = 1; b = 0;
+        #10 a = 1; b = 1;  // should go to sensab
+        #10 a = 0; b = 1;  // should reach enter -> out asserted
+        #10 a = 0; b = 0;  // should reach enter -> out asserted
 
-//        // 3. Random noise inputs
-//        #20 a = 1; b = 0;
-//        #10 a = 0; b = 1;
-//        #10 a = 0; b = 0;
 
         // Finish simulation
         #50;
@@ -54,7 +52,7 @@ module fsm_tb;
 
     // Monitor output
     initial begin
-        $monitor("HELLO: Time=%0t | clk=%b rst=%b a=%b b=%b | out=%b", 
+        $monitor("Time=%0t | clk=%b rst=%b a=%b b=%b | out=%b", 
                   $time, clk, rst, a, b, out);
     end
 

@@ -8,17 +8,20 @@ module fsm (
     output out
 );
 
-    parameter wt     = 2'b00,
-              sensa  = 2'b01,
-              sensab = 2'b11,
-              enter  = 2'b00,
-              sensb  = 2'b01,
-              sensba = 2'b11,
-              exit   = 2'b00;
-
+    parameter wt    = 3'b000,
+    
+              sens1 = 3'b001,
+              sens2 = 3'b010,
+              
+              sens3 = 3'b011,
+              sens4 = 3'b100,
+              
+              enter = 3'b101,
+              exit  = 3'b110;
+            
     reg [2:0] nst, st;
 
-    assign out = (st == enter) | (st == exit);
+    assign out = ((st == enter) | (st == exit));
 
     always @(posedge clk) begin
         if (rst)
@@ -31,31 +34,33 @@ module fsm (
         nst = st;
         case (st)
             wt: begin
-                if (a)       nst = sensa;
-                else if (b)  nst = sensb;
+                if (a & ~b)  nst = sens1;
+                else if (b & ~a) nst = sens3;
             end
 
-            sensa: begin
-                if (a & b)  nst = sensab;
+            sens1: begin
+                if (a && b)  nst = sens2;
+                else         nst = wt;
+            end
+            
+            sens2: begin
+                if (b & ~a)  nst = enter;
+                else         nst = wt;
+            end     
+            
+            sens3: begin
+                if (b && a) nst = sens4;
                 else        nst = wt;
             end
-
-            sensb: begin
-                if (b & a)  nst = sensba;
+            
+            sens4: begin
+                if (a & ~b) nst = exit;
                 else        nst = wt;
             end
-
-            sensba: begin
-                if (~b & ~a) nst = exit;
-            end
-
-            sensab: begin
-                if (~a & ~b) nst = enter;
-            end
-
+                                   
             enter: nst = wt;
             exit:  nst = wt;
-
+            
             default: nst = wt;
         endcase
     end

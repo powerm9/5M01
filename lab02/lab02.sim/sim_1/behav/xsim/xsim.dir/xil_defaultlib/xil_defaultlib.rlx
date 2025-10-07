@@ -2,10 +2,10 @@
 2020.2
 Oct 13 2023
 20:47:58
-C:/Users/mattp/MAI/5M01/lab02/lab02.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
-C:/Users/mattp/MAI/5M01/lab02/lab02.srcs/sim_1/new/car_check_tb.v,1759841676,verilog,,,,car_check_tb,,,,,,,,
+C:/Users/mattp/MAI/5M01/lab02/lab02.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/mattp/MAI/5M01/lab02/lab02.srcs/sim_1/new/car_check_tb.v,1759848081,verilog,,,,car_check_tb,,uvm,,,,,,
 C:/Users/mattp/MAI/5M01/lab02/lab02.srcs/sim_1/new/fsm_tb.v,1759773200,verilog,,,,fsm_tb,,,,,,,,
-C:/Users/mattp/MAI/5M01/lab02/lab02.srcs/sources_1/new/car_check.v,1759842049,verilog,,C:/Users/mattp/MAI/5M01/lab02/lab02.srcs/sources_1/new/counter.v,,car_check,,,,,,,,
-C:/Users/mattp/MAI/5M01/lab02/lab02.srcs/sources_1/new/counter.v,1759769716,verilog,,C:/Users/mattp/MAI/5M01/lab02/lab02.srcs/sources_1/new/fsm2.v,,counter,,,,,,,,
-C:/Users/mattp/MAI/5M01/lab02/lab02.srcs/sources_1/new/debouncer.sv,1759834728,systemVerilog,,,,debouncer,,uvm,,,,,,
-C:/Users/mattp/MAI/5M01/lab02/lab02.srcs/sources_1/new/fsm2.v,1759832994,verilog,,C:/Users/mattp/MAI/5M01/lab02/lab02.srcs/sim_1/new/car_check_tb.v,,fsm,,,,,,,,
+C:/Users/mattp/MAI/5M01/lab02/lab02.srcs/sources_1/new/car_check.v,1759848582,verilog,,C:/Users/mattp/MAI/5M01/lab02/lab02.srcs/sources_1/new/counter.v,,car_check,,uvm,,,,,,
+C:/Users/mattp/MAI/5M01/lab02/lab02.srcs/sources_1/new/counter.v,1759769716,verilog,,C:/Users/mattp/MAI/5M01/lab02/lab02.srcs/sources_1/new/fsm2.v,,counter,,uvm,,,,,,
+C:/Users/mattp/MAI/5M01/lab02/lab02.srcs/sources_1/new/debouncer.sv,1759848156,systemVerilog,,,,debouncer,,uvm,,,,,,
+C:/Users/mattp/MAI/5M01/lab02/lab02.srcs/sources_1/new/fsm2.v,1759832994,verilog,,C:/Users/mattp/MAI/5M01/lab02/lab02.srcs/sim_1/new/car_check_tb.v,,fsm,,uvm,,,,,,

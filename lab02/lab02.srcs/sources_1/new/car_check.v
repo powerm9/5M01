@@ -17,14 +17,14 @@ module car_check(
    
     assign led = count;
     
-    assign a = btn[0];
-    assign b = btn[1];
+    assign a = btn_db[0];
+    assign b = btn_db[1];
     assign rst = btn[2];
     
     
     fsm fsm(.clk(clk), .rst(btn[2]), .a(btn[0]), .b(btn[1]), .out(fsm_out));
     counter cnt(.clk(clk), .rst(rst), .inc(inc), .dec(dec), .out(count));
-//    debouncer dbcer(.clk(sysclk), .reset(rst), .button(btn), .button_db(btn_db)); 
+    debouncer dbcer(.clk(sysclk), .reset(rst), .button(btn), .button_db(btn_db)); 
     
     always @(posedge clk) begin
         if (fsm_out == enter) begin

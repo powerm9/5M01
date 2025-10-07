@@ -1,13 +1,13 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date         : Tue Oct  7 12:55:16 2025
+| Date         : Tue Oct  7 15:16:15 2025
 | Host         : matt-lenovo running 64-bit major release  (build 9200)
 | Command      : report_drc -file car_check_drc_opted.rpt -pb car_check_drc_opted.pb -rpx car_check_drc_opted.rpx
 | Design       : car_check
 | Device       : xc7z020clg400-1
 | Speed File   : -1
-| Design State : Fully Routed
+| Design State : Synthesized
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 Report DRC

@@ -1,35 +1,10 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="mattp" Host="MATT-LENOVO" Pid="44004" HostCore="16" HostMemory="014827769856">
+    <Process Command="vivado.bat" Owner="mattp" Host="MATT-LENOVO" Pid="56860" HostCore="16" HostMemory="014827769856">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="mattp" Host="MATT-LENOVO" Pid="43300" HostCore="16" HostMemory="014827769856">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="mattp" Host="MATT-LENOVO" Pid="40068" HostCore="16" HostMemory="014827769856">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="mattp" Host="MATT-LENOVO" Pid="20156" HostCore="16" HostMemory="014827769856">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="mattp" Host="MATT-LENOVO" Pid="44900" HostCore="16" HostMemory="014827769856">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="mattp" Host="MATT-LENOVO" Pid="46640" HostCore="16" HostMemory="014827769856">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="mattp" Host="MATT-LENOVO" Pid="46060" HostCore="16" HostMemory="014827769856">
+    <Process Command="vivado.bat" Owner="mattp" Host="MATT-LENOVO" Pid="55264" HostCore="16" HostMemory="014827769856">
     </Process>
 </ProcessHandle>

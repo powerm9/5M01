@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date                      : Tue Oct  7 12:55:18 2025
+| Date                      : Tue Oct  7 15:16:17 2025
 | Host                      : matt-lenovo running 64-bit major release  (build 9200)
 | Command                   : report_io -file car_check_io_placed.rpt
 | Design                    : car_check
@@ -25,7 +25,7 @@ Table of Contents
 +---------------+
 | Total User IO |
 +---------------+
-|             8 |
+|             9 |
 +---------------+
 
 
@@ -253,7 +253,7 @@ Table of Contents
 | L16        |             | High Range | IO_L11P_T1_SRCC_35      | User IO     |             |      35 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | L17        |             | High Range | IO_L11N_T1_SRCC_35      | User IO     |             |      35 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | L18        |             |            | GND                     | GND         |             |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
-| L19        |             | High Range | IO_L9P_T1_DQS_AD3P_35   | User IO     |             |      35 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
+| L19        | btn[3]      | High Range | IO_L9P_T1_DQS_AD3P_35   | INPUT       | LVCMOS33    |      35 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | L20        | btn[2]      | High Range | IO_L9N_T1_DQS_AD3N_35   | INPUT       | LVCMOS33    |      35 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | M1         |             |            | GND                     | GND         |             |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
 | M2         |             |            | PS_DDR_CKN_502          | PSS IO      |             |         |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |

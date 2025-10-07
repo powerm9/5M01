@@ -3,59 +3,45 @@
 module car_check_tb;
 
     reg clk;
-    reg rst;
-    reg a;
-    reg b;
-    wire [3:0]out;
+    reg [2:0]btn;
+    wire [3:0]led;
 
     // Instantiate DUT (Device Under Test)
     car_check dut (
         .clk(clk),
-        .rst(rst),
-        .a(a),
-        .b(b),
-        .out(out)
+        .btn(btn),
+        .led(led)
     );
 
     // Clock generation: 10ns period
+//    initial clk = 0;
     always #5 clk = ~clk;
 
     initial begin
-        // Initialize
+        // Initialize inputs
         clk = 0;
-        rst = 1;
-        a = 0;
-        b = 0;
-
-        // Apply reset
-        #12; 
+        btn[2] = 1;
+        btn[1] = 0;
+        btn[0] = 0;
         
-        rst = 0;
-        
+        #12;
+        btn[2] = 0;
+             
         repeat (5) begin        
-            #10 a = 1; b = 0;
-            #10 a = 1; b = 1;  // should go to sensab
-            #10 a = 0; b = 1;  // should reach enter -> out asserted
-            #10 a = 0; b = 0;  // should reach enter -> out asserted
+            #10 btn[0] = 1; btn[1] = 0;
+            #10 btn[0] = 1; btn[1] = 1;  // should go to sensab
+            #10 btn[0] = 0; btn[1] = 1;  // should reach enter -> out asserted
+            #10 btn[0] = 0; btn[1] = 0;  // return to idle
         end
-        
 
-        repeat (2) begin 
-            #10 a = 0; b = 1;
-            #10 a = 1; b = 1;  // should go to sensab
-            #10 a = 1; b = 0;  // should reach enter -> out asserted
-            #10 a = 0; b = 0;  // should reach enter -> out asserted
-        end
-       
-        // Finish simulation
-        #50;
+        #10;
         $finish;
     end
 
     // Monitor output
     initial begin
-        $monitor("Time=%0t | clk=%b rst=%b a=%b b=%b | out=%b", 
-                  $time, clk, rst, a, b, out);
+        $monitor("Time=%0t | clk=%b | btn2=%b btn1=%b btn0=%b | led=%b", 
+                 $time, clk, btn[2], btn[1], btn[0], led);
     end
 
 endmodule

@@ -2,22 +2,29 @@
 
 module car_check(
     input clk,
-    input rst,
-    input a,
-    input b,
-    output [3:0] out
+    input [2:0] btn,
+    output [3:0] led
     );
     
-    parameter enter = 3'b101, exit = 3'b110;
+    parameter enter =    3'b101, exit = 3'b110;
     
     wire [2:0] fsm_out;
     wire [3:0] count;
+    wire [2:0] btn_db;
+    
     reg inc, dec;
+    wire a, b, rst;
+   
+    assign led = count;
     
-    assign out = count;
+    assign a = btn[0];
+    assign b = btn[1];
+    assign rst = btn[2];
     
-    fsm fsm(.clk(clk), .rst(rst), .a(a), .b(b), .out(fsm_out));
+    
+    fsm fsm(.clk(clk), .rst(btn[2]), .a(btn[0]), .b(btn[1]), .out(fsm_out));
     counter cnt(.clk(clk), .rst(rst), .inc(inc), .dec(dec), .out(count));
+//    debouncer dbcer(.clk(sysclk), .reset(rst), .button(btn), .button_db(btn_db)); 
     
     always @(posedge clk) begin
         if (fsm_out == enter) begin

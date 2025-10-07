@@ -27,7 +27,12 @@ module car_check(
        else if (fsm_out == exit) begin
             inc <= 1'b0;
             dec <= 1'b1;
+       end
+        else begin
+            inc <= 1'b0;
+            dec <= 1'b0;
         end
+        
     end
     
 endmodule

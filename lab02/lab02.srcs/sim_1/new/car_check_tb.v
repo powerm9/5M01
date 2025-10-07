@@ -29,16 +29,10 @@ module car_check_tb;
 
         // Apply reset
         #12; 
-        rst = 0;
-
-        repeat (3) begin 
-            #10 a = 0; b = 1;
-            #10 a = 1; b = 1;  // should go to sensab
-            #10 a = 1; b = 0;  // should reach enter -> out asserted
-            #10 a = 0; b = 0;  // should reach enter -> out asserted
-        end
         
-        repeat (3) begin        
+        rst = 0;
+        
+        repeat (5) begin        
             #10 a = 1; b = 0;
             #10 a = 1; b = 1;  // should go to sensab
             #10 a = 0; b = 1;  // should reach enter -> out asserted
@@ -46,7 +40,13 @@ module car_check_tb;
         end
         
 
-
+        repeat (2) begin 
+            #10 a = 0; b = 1;
+            #10 a = 1; b = 1;  // should go to sensab
+            #10 a = 1; b = 0;  // should reach enter -> out asserted
+            #10 a = 0; b = 0;  // should reach enter -> out asserted
+        end
+       
         // Finish simulation
         #50;
         $finish;

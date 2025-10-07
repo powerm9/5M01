@@ -20,8 +20,10 @@ module fsm (
               exit  = 3'b110;
             
     reg [2:0] nst, st;
+    
 
-    assign out = ((st == enter) | (st == exit));
+    assign out = st;
+   
 
     always @(posedge clk) begin
         if (rst)
@@ -54,7 +56,7 @@ module fsm (
             end
             
             sens4: begin
-                if (a & ~b) nst = exit;
+                if (a & ~b) nst = exit; 
                 else        nst = wt;
             end
                                    

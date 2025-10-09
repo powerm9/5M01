@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab02.srcs/sources_1/new/car_check.v" \
+"../../../../lab02.srcs/sources_1/new/counter.v" \
+"../../../../lab02.srcs/sources_1/new/fsm2.v" \
+
+sv xil_defaultlib  \
+"../../../../lab02.srcs/sources_1/new/debouncer.sv" \
+
+verilog xil_defaultlib  \
+"../../../../lab02.srcs/sim_1/new/car_check_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

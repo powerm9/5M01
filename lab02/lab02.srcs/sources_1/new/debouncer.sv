@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module debouncer #(parameter threshold = 5000  )// set parameter thresehold to guage how long button pressed
+module debouncer #(parameter threshold = 0  )// set parameter thresehold to guage how long button pressed
   (input      clk, //clock signal
    input      reset,
    input      button, //input button

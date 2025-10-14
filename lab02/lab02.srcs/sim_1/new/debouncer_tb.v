@@ -8,7 +8,7 @@ module debouncer_tb;
     wire button_db;
 
     // Instantiate the debouncer with small threshold for simulation
-    debouncer #(.threshold(1,250,000)) uut (
+    debouncer #(.threshold(0)) uut (
         .clk(clk),
         .reset(reset),
         .button(button),

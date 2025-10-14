@@ -17,12 +17,6 @@ module car_check(
     wire btn_rst_db;
     
     reg inc, dec;
-//    wire a, b, rst;
-
-//    assign led[0] = count[0];
-//    assign led[1] = count[1];
-//    assign led[2] = count[2];
-//    assign led[3] = count[3];
 
     assign led = count;
     
@@ -31,7 +25,7 @@ module car_check(
     debouncer dbcer2(.clk(clk), .reset(1'b0), .button(btn_rst), .button_db(btn_rst_db)); 
     
     fsm fsm(.clk(clk), .rst(btn_rst_db), .a(btn_a_db), .b(btn_b_db), .out(fsm_out));
-    counter cnt(.clk(clk), .rst(btn_rst), .inc(inc), .dec(dec), .out(count));
+    counter cnt(.clk(clk), .rst(btn_rst_db), .inc(inc), .dec(dec), .out(count));
 
     always @(posedge clk) begin
         if (fsm_out == enter) begin

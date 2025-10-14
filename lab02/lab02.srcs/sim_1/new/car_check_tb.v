@@ -30,6 +30,7 @@ module car_check_tb;
         
         #50;
         btn_rst = 0;
+        #50
         
         repeat (15) begin        
             #50 btn_a = 1; btn_b = 0;
@@ -38,12 +39,12 @@ module car_check_tb;
             #50 btn_a = 0; btn_b = 0;  // return to idle
         end
         
-//        repeat (16) begin        
-//            #10 btn[0] = 0; btn[1] = 1;
-//            #10 btn[0] = 1; btn[1] = 1;  // should go to sensab
-//            #10 btn[0] = 1; btn[1] = 0;  // should reach enter -> out asserted
-//            #10 btn[0] = 0; btn[1] = 0;  // return to idle
-//        end
+        repeat (16) begin        
+            #10 btn[0] = 0; btn[1] = 1;
+            #10 btn[0] = 1; btn[1] = 1;  // should go to sensab
+            #10 btn[0] = 1; btn[1] = 0;  // should reach enter -> out asserted
+            #10 btn[0] = 0; btn[1] = 0;  // return to idle
+        end
 
         #10;
         $finish;

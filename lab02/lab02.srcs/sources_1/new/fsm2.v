@@ -21,9 +21,7 @@ module fsm (
             
     reg [2:0] nst, st;
     
-
     assign out = st;
-   
 
     always @(posedge clk) begin
         if (rst)

@@ -1,601 +1,216 @@
 Time resolution is 1 ps
-Time=0 | clk=0 | btn2=1 btn1=0 btn0=0 | led=xxxx
-Time=5000 | clk=1 | btn2=1 btn1=0 btn0=0 | led=xxxx
-Time=10000 | clk=0 | btn2=1 btn1=0 btn0=0 | led=xxxx
-Time=15000 | clk=1 | btn2=1 btn1=0 btn0=0 | led=xxxx
-Time=20000 | clk=0 | btn2=1 btn1=0 btn0=0 | led=xxxx
-Time=25000 | clk=1 | btn2=1 btn1=0 btn0=0 | led=xxxx
-Time=30000 | clk=0 | btn2=1 btn1=0 btn0=0 | led=xxxx
-Time=35000 | clk=1 | btn2=1 btn1=0 btn0=0 | led=xxxx
-Time=40000 | clk=0 | btn2=1 btn1=0 btn0=0 | led=xxxx
-Time=45000 | clk=1 | btn2=1 btn1=0 btn0=0 | led=0000
-Time=50000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=55000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=60000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=65000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=70000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=75000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=80000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=85000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=90000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=95000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=100000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=105000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=110000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=115000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=120000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=125000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=130000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=135000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=140000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=145000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=150000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=155000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=160000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=165000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=170000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=175000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=180000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=185000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=190000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=195000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=200000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0000
-Time=205000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0000
-Time=210000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0000
-Time=215000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0000
-Time=220000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0000
-Time=225000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0000
-Time=230000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0000
-Time=235000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0000
-Time=240000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0000
-Time=245000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0000
-Time=250000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0000
-Time=255000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0000
-Time=260000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0000
-Time=265000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0000
-Time=270000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0000
-Time=275000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0000
-Time=280000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0000
-Time=285000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0000
-Time=290000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0000
-Time=295000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0000
-Time=300000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=305000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=310000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=315000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=320000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=325000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=330000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=335000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=340000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=345000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0000
-Time=350000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=355000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=360000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=365000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=370000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=375000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=380000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=385000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=390000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=395000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0000
-Time=400000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0000
-Time=405000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0001
-Time=410000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0001
-Time=415000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0001
-Time=420000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0001
-Time=425000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0001
-Time=430000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0001
-Time=435000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0001
-Time=440000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0001
-Time=445000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0001
-Time=450000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0001
-Time=455000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0001
-Time=460000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0001
-Time=465000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0001
-Time=470000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0001
-Time=475000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0001
-Time=480000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0001
-Time=485000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0001
-Time=490000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0001
-Time=495000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0001
-Time=500000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0001
-Time=505000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0001
-Time=510000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0001
-Time=515000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0001
-Time=520000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0001
-Time=525000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0001
-Time=530000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0001
-Time=535000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0001
-Time=540000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0001
-Time=545000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0001
-Time=550000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0001
-Time=555000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0001
-Time=560000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0001
-Time=565000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0001
-Time=570000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0001
-Time=575000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0001
-Time=580000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0001
-Time=585000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0001
-Time=590000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0001
-Time=595000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0001
-Time=600000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0001
-Time=605000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0010
-Time=610000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0010
-Time=615000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0010
-Time=620000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0010
-Time=625000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0010
-Time=630000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0010
-Time=635000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0010
-Time=640000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0010
-Time=645000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0010
-Time=650000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0010
-Time=655000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0010
-Time=660000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0010
-Time=665000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0010
-Time=670000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0010
-Time=675000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0010
-Time=680000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0010
-Time=685000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0010
-Time=690000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0010
-Time=695000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0010
-Time=700000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0010
-Time=705000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0010
-Time=710000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0010
-Time=715000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0010
-Time=720000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0010
-Time=725000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0010
-Time=730000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0010
-Time=735000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0010
-Time=740000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0010
-Time=745000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0010
-Time=750000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0010
-Time=755000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0010
-Time=760000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0010
-Time=765000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0010
-Time=770000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0010
-Time=775000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0010
-Time=780000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0010
-Time=785000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0010
-Time=790000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0010
-Time=795000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0010
-Time=800000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0010
-Time=805000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0011
-Time=810000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0011
-Time=815000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0011
-Time=820000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0011
-Time=825000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0011
-Time=830000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0011
-Time=835000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0011
-Time=840000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0011
-Time=845000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0011
-Time=850000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0011
-Time=855000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0011
-Time=860000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0011
-Time=865000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0011
-Time=870000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0011
-Time=875000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0011
-Time=880000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0011
-Time=885000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0011
-Time=890000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0011
-Time=895000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0011
-Time=900000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0011
-Time=905000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0011
-Time=910000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0011
-Time=915000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0011
-Time=920000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0011
-Time=925000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0011
-Time=930000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0011
-Time=935000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0011
-Time=940000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0011
-Time=945000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0011
-Time=950000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0011
-Time=955000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0011
-Time=960000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0011
-Time=965000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0011
-Time=970000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0011
-Time=975000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0011
-Time=980000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0011
-Time=985000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0011
-Time=990000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0011
-Time=995000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0011
-Time=1000000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0011
-Time=1005000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0100
-Time=1010000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0100
-Time=1015000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0100
-Time=1020000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0100
-Time=1025000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0100
-Time=1030000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0100
-Time=1035000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0100
-Time=1040000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0100
-Time=1045000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0100
-Time=1050000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0100
-Time=1055000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0100
-Time=1060000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0100
-Time=1065000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0100
-Time=1070000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0100
-Time=1075000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0100
-Time=1080000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0100
-Time=1085000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0100
-Time=1090000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0100
-Time=1095000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0100
-Time=1100000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0100
-Time=1105000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0100
-Time=1110000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0100
-Time=1115000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0100
-Time=1120000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0100
-Time=1125000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0100
-Time=1130000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0100
-Time=1135000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0100
-Time=1140000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0100
-Time=1145000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0100
-Time=1150000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0100
-Time=1155000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0100
-Time=1160000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0100
-Time=1165000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0100
-Time=1170000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0100
-Time=1175000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0100
-Time=1180000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0100
-Time=1185000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0100
-Time=1190000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0100
-Time=1195000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0100
-Time=1200000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0100
-Time=1205000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0101
-Time=1210000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0101
-Time=1215000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0101
-Time=1220000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0101
-Time=1225000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0101
-Time=1230000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0101
-Time=1235000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0101
-Time=1240000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0101
-Time=1245000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0101
-Time=1250000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0101
-Time=1255000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0101
-Time=1260000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0101
-Time=1265000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0101
-Time=1270000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0101
-Time=1275000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0101
-Time=1280000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0101
-Time=1285000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0101
-Time=1290000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0101
-Time=1295000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0101
-Time=1300000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0101
-Time=1305000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0101
-Time=1310000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0101
-Time=1315000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0101
-Time=1320000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0101
-Time=1325000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0101
-Time=1330000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0101
-Time=1335000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0101
-Time=1340000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0101
-Time=1345000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0101
-Time=1350000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0101
-Time=1355000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0101
-Time=1360000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0101
-Time=1365000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0101
-Time=1370000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0101
-Time=1375000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0101
-Time=1380000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0101
-Time=1385000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0101
-Time=1390000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0101
-Time=1395000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0101
-Time=1400000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0101
-Time=1405000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0110
-Time=1410000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0110
-Time=1415000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0110
-Time=1420000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0110
-Time=1425000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0110
-Time=1430000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0110
-Time=1435000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0110
-Time=1440000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0110
-Time=1445000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0110
-Time=1450000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0110
-Time=1455000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0110
-Time=1460000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0110
-Time=1465000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0110
-Time=1470000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0110
-Time=1475000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0110
-Time=1480000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0110
-Time=1485000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0110
-Time=1490000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0110
-Time=1495000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0110
-Time=1500000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0110
-Time=1505000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0110
-Time=1510000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0110
-Time=1515000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0110
-Time=1520000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0110
-Time=1525000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0110
-Time=1530000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0110
-Time=1535000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0110
-Time=1540000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0110
-Time=1545000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0110
-Time=1550000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0110
-Time=1555000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0110
-Time=1560000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0110
-Time=1565000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0110
-Time=1570000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0110
-Time=1575000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0110
-Time=1580000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0110
-Time=1585000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0110
-Time=1590000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0110
-Time=1595000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0110
-Time=1600000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0110
-Time=1605000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0111
-Time=1610000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0111
-Time=1615000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0111
-Time=1620000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0111
-Time=1625000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0111
-Time=1630000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0111
-Time=1635000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0111
-Time=1640000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0111
-Time=1645000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=0111
-Time=1650000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0111
-Time=1655000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0111
-Time=1660000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0111
-Time=1665000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0111
-Time=1670000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0111
-Time=1675000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0111
-Time=1680000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0111
-Time=1685000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0111
-Time=1690000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=0111
-Time=1695000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=0111
-Time=1700000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0111
-Time=1705000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0111
-Time=1710000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0111
-Time=1715000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0111
-Time=1720000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0111
-Time=1725000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0111
-Time=1730000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0111
-Time=1735000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0111
-Time=1740000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=0111
-Time=1745000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=0111
-Time=1750000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0111
-Time=1755000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0111
-Time=1760000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0111
-Time=1765000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0111
-Time=1770000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0111
-Time=1775000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0111
-Time=1780000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0111
-Time=1785000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0111
-Time=1790000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=0111
-Time=1795000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=0111
-Time=1800000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=0111
-Time=1805000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1000
-Time=1810000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1000
-Time=1815000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1000
-Time=1820000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1000
-Time=1825000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1000
-Time=1830000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1000
-Time=1835000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1000
-Time=1840000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1000
-Time=1845000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1000
-Time=1850000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1000
-Time=1855000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1000
-Time=1860000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1000
-Time=1865000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1000
-Time=1870000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1000
-Time=1875000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1000
-Time=1880000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1000
-Time=1885000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1000
-Time=1890000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1000
-Time=1895000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1000
-Time=1900000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1000
-Time=1905000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1000
-Time=1910000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1000
-Time=1915000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1000
-Time=1920000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1000
-Time=1925000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1000
-Time=1930000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1000
-Time=1935000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1000
-Time=1940000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1000
-Time=1945000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1000
-Time=1950000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1000
-Time=1955000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1000
-Time=1960000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1000
-Time=1965000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1000
-Time=1970000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1000
-Time=1975000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1000
-Time=1980000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1000
-Time=1985000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1000
-Time=1990000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1000
-Time=1995000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1000
-Time=2000000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1000
-Time=2005000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1001
-Time=2010000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1001
-Time=2015000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1001
-Time=2020000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1001
-Time=2025000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1001
-Time=2030000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1001
-Time=2035000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1001
-Time=2040000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1001
-Time=2045000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1001
-Time=2050000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1001
-Time=2055000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1001
-Time=2060000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1001
-Time=2065000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1001
-Time=2070000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1001
-Time=2075000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1001
-Time=2080000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1001
-Time=2085000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1001
-Time=2090000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1001
-Time=2095000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1001
-Time=2100000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1001
-Time=2105000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1001
-Time=2110000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1001
-Time=2115000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1001
-Time=2120000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1001
-Time=2125000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1001
-Time=2130000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1001
-Time=2135000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1001
-Time=2140000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1001
-Time=2145000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1001
-Time=2150000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1001
-Time=2155000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1001
-Time=2160000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1001
-Time=2165000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1001
-Time=2170000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1001
-Time=2175000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1001
-Time=2180000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1001
-Time=2185000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1001
-Time=2190000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1001
-Time=2195000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1001
-Time=2200000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1001
-Time=2205000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1010
-Time=2210000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1010
-Time=2215000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1010
-Time=2220000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1010
-Time=2225000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1010
-Time=2230000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1010
-Time=2235000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1010
-Time=2240000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1010
-Time=2245000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1010
-Time=2250000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1010
-Time=2255000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1010
-Time=2260000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1010
-Time=2265000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1010
-Time=2270000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1010
-Time=2275000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1010
-Time=2280000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1010
-Time=2285000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1010
-Time=2290000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1010
-Time=2295000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1010
-Time=2300000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1010
-Time=2305000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1010
-Time=2310000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1010
-Time=2315000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1010
-Time=2320000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1010
-Time=2325000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1010
-Time=2330000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1010
-Time=2335000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1010
-Time=2340000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1010
-Time=2345000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1010
-Time=2350000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1010
-Time=2355000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1010
-Time=2360000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1010
-Time=2365000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1010
-Time=2370000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1010
-Time=2375000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1010
-Time=2380000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1010
-Time=2385000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1010
-Time=2390000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1010
-Time=2395000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1010
-Time=2400000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1010
-Time=2405000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1011
-Time=2410000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1011
-Time=2415000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1011
-Time=2420000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1011
-Time=2425000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1011
-Time=2430000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1011
-Time=2435000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1011
-Time=2440000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1011
-Time=2445000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1011
-Time=2450000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1011
-Time=2455000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1011
-Time=2460000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1011
-Time=2465000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1011
-Time=2470000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1011
-Time=2475000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1011
-Time=2480000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1011
-Time=2485000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1011
-Time=2490000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1011
-Time=2495000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1011
-Time=2500000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1011
-Time=2505000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1011
-Time=2510000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1011
-Time=2515000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1011
-Time=2520000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1011
-Time=2525000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1011
-Time=2530000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1011
-Time=2535000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1011
-Time=2540000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1011
-Time=2545000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1011
-Time=2550000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1011
-Time=2555000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1011
-Time=2560000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1011
-Time=2565000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1011
-Time=2570000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1011
-Time=2575000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1011
-Time=2580000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1011
-Time=2585000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1011
-Time=2590000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1011
-Time=2595000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1011
-Time=2600000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1011
-Time=2605000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1100
-Time=2610000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1100
-Time=2615000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1100
-Time=2620000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1100
-Time=2625000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1100
-Time=2630000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1100
-Time=2635000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1100
-Time=2640000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1100
-Time=2645000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1100
-Time=2650000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1100
-Time=2655000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1100
-Time=2660000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1100
-Time=2665000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1100
-Time=2670000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1100
-Time=2675000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1100
-Time=2680000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1100
-Time=2685000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1100
-Time=2690000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1100
-Time=2695000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1100
-Time=2700000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1100
-Time=2705000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1100
-Time=2710000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1100
-Time=2715000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1100
-Time=2720000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1100
-Time=2725000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1100
-Time=2730000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1100
-Time=2735000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1100
-Time=2740000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1100
-Time=2745000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1100
-Time=2750000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1100
-Time=2755000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1100
-Time=2760000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1100
-Time=2765000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1100
-Time=2770000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1100
-Time=2775000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1100
-Time=2780000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1100
-Time=2785000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1100
-Time=2790000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1100
-Time=2795000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1100
-Time=2800000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1100
-Time=2805000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1101
-Time=2810000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1101
-Time=2815000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1101
-Time=2820000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1101
-Time=2825000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1101
-Time=2830000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1101
-Time=2835000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1101
-Time=2840000 | clk=0 | btn2=0 btn1=1 btn0=1 | led=1101
-Time=2845000 | clk=1 | btn2=0 btn1=1 btn0=1 | led=1101
-Time=2850000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1101
-Time=2855000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1101
-Time=2860000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1101
-Time=2865000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1101
-Time=2870000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1101
-Time=2875000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1101
-Time=2880000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1101
-Time=2885000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1101
-Time=2890000 | clk=0 | btn2=0 btn1=1 btn0=0 | led=1101
-Time=2895000 | clk=1 | btn2=0 btn1=1 btn0=0 | led=1101
-Time=2900000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1101
-Time=2905000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1101
-Time=2910000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1101
-Time=2915000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1101
-Time=2920000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1101
-Time=2925000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1101
-Time=2930000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1101
-Time=2935000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1101
-Time=2940000 | clk=0 | btn2=0 btn1=0 btn0=0 | led=1101
-Time=2945000 | clk=1 | btn2=0 btn1=0 btn0=0 | led=1101
-Time=2950000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1101
-Time=2955000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1101
-Time=2960000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1101
-Time=2965000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1101
-Time=2970000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1101
-Time=2975000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1101
-Time=2980000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1101
-Time=2985000 | clk=1 | btn2=0 btn1=0 btn0=1 | led=1101
-Time=2990000 | clk=0 | btn2=0 btn1=0 btn0=1 | led=1101
-Time=2995000 | clk=1 | b
+time inc dec out err 
+    5, 00 x, ERROR
+   15, 00 0,      
+   25, 00 0,      
+   35, 00 0,      
+   45, 00 0,      
+   55, 00 0,      
+   65, 00 0,      
+   75, 00 0,      
+   85, 00 0,      
+   95, 00 0,      
+  105, 00 0,      
+  115, 00 0,      
+  125, 00 0,      
+  135, 00 0,      
+  145, 00 0,      
+  155, 00 0,      
+  165, 00 0,      
+  175, 00 0,      
+  185, 00 0,      
+  195, 00 0,      
+  205, 00 0,      
+  215, 00 0,      
+  225, 00 0,      
+  235, 00 0,      
+  245, 00 0,      
+  255, 00 0,      
+  265, 00 0,      
+  275, 00 0,      
+  285, 00 0,      
+  295, 00 0,      
+  305, 00 0,      
+  315, 10 0,      
+  325, 00 0, ERROR
+  335, 00 1, ERROR
+  345, 00 1,      
+  355, 00 1,      
+  365, 00 1,      
+  375, 00 1,      
+  385, 00 1,      
+  395, 00 1,      
+  405, 00 1,      
+  415, 00 1,      
+  425, 00 1,      
+  435, 00 1,      
+  445, 00 1,      
+  455, 00 1,      
+  465, 00 1,      
+  475, 00 1,      
+  485, 00 1,      
+  495, 00 1,      
+  505, 00 1,      
+  515, 00 1,      
+  525, 00 1,      
+  535, 10 1,      
+  545, 00 1, ERROR
+  555, 00 0, ERROR
+  565, 00 0,      
+  575, 00 0,      
+  585, 00 0,      
+  595, 00 0,      
+  605, 00 0,      
+  615, 00 0,      
+  625, 00 0,      
+  635, 00 0,      
+  645, 00 0,      
+  655, 00 0,      
+  665, 00 0,      
+  675, 00 0,      
+  685, 00 0,      
+  695, 00 0,      
+  705, 00 0,      
+  715, 00 0,      
+  725, 00 0,      
+  735, 00 0,      
+  745, 00 0,      
+  755, 10 0,      
+  765, 00 0, ERROR
+  775, 00 1, ERROR
+  785, 00 1,      
+  795, 00 1,      
+  805, 00 1,      
+  815, 00 1,      
+  825, 00 1,      
+  835, 00 1,      
+  845, 00 1,      
+  855, 00 1,      
+  865, 00 1,      
+  875, 00 1,      
+  885, 00 1,      
+  895, 00 1,      
+  905, 00 1,      
+  915, 00 1,      
+  925, 00 1,      
+  935, 00 1,      
+  945, 00 1,      
+  955, 00 1,      
+  965, 00 1,      
+  975, 10 1,      
+  985, 00 1, ERROR
+  995, 00 0, ERROR
+ 1005, 00 0,      
+ 1015, 00 0,      
+ 1025, 00 0,      
+ 1035, 00 0,      
+ 1045, 00 0,      
+ 1055, 00 0,      
+ 1065, 00 0,      
+ 1075, 00 0,      
+ 1085, 00 0,      
+ 1095, 00 0,      
+ 1105, 00 0,      
+ 1115, 00 0,      
+ 1125, 00 0,      
+ 1135, 00 0,      
+ 1145, 00 0,      
+ 1155, 00 0,      
+ 1165, 00 0,      
+ 1175, 00 0,      
+ 1185, 00 0,      
+ 1195, 10 0,      
+ 1205, 00 0, ERROR
+ 1215, 00 1, ERROR
+ 1225, 00 1,      
+ 1235, 00 1,      
+ 1245, 00 1,      
+ 1255, 00 1,      
+ 1265, 00 1,      
+ 1275, 00 1,      
+ 1285, 00 1,      
+ 1295, 00 1,      
+ 1305, 00 1,      
+ 1315, 00 1,      
+ 1325, 00 1,      
+ 1335, 00 1,      
+ 1345, 00 1,      
+ 1355, 00 1,      
+ 1365, 00 1,      
+ 1375, 00 1,      
+ 1385, 00 1,      
+ 1395, 00 1,      
+ 1405, 00 1,      
+ 1415, 10 1,      
+ 1425, 00 1, ERROR
+ 1435, 00 0, ERROR
+ 1445, 00 0,      
+ 1455, 00 0,      
+ 1465, 00 0,      
+ 1475, 00 0,      
+ 1485, 00 0,      
+ 1495, 00 0,      
+ 1505, 00 0,      
+ 1515, 00 0,      
+ 1525, 00 0,      
+ 1535, 00 0,      
+ 1545, 00 0,      
+ 1555, 00 0,      
+ 1565, 00 0,      
+ 1575, 00 0,      
+ 1585, 00 0,      
+ 1595, 00 0,      
+ 1605, 00 0,      
+ 1615, 00 0,      
+ 1625, 00 0,      
+ 1635, 10 0,      
+ 1645, 00 0, ERROR
+ 1655, 00 1, ERROR
+ 1665, 00 1,      
+ 1675, 00 1,      
+ 1685, 00 1,      
+ 1695, 00 1,      
+ 1705, 00 1,      
+ 1715, 00 1,      
+ 1725, 00 1,      
+ 1735, 00 1,      
+ 1745, 00 1,      
+ 1755, 00 1,      
+ 1765, 00 1,      
+ 1775, 00 1,      
+ 1785, 00 1,      
+ 1795, 00 1,      
+ 1805, 00 1,      
+ 1815, 00 1,      
+ 1825, 00 1,      
+ 1835, 00 1,      
+ 1845, 00 1,      
+ 1855, 10 1,      
+ 1865, 00 1, ERROR
+ 1875, 00 0, ERROR
+ 1885, 00 0,      
+ 1895, 00 0,      
+ 1905, 00 0,      
+ 1915, 00 0,      
+ 1925, 00 0,      
+ 1935, 00 0,      
+ 1945, 00 0,      
+ 1955, 00 0,      
+ 1965, 00 0,      
+ 1975, 00 0,      
+ 1985, 00 0,      
+ 1995, 00 0,      
+ 2005, 00 0,      
+ 2015, 00 0,      
+ 2025, 00 0,      
+ 2035, 00 0,      
+ 2045, 00 0,      
+ 2055, 00 0,      
+ 2065, 00 0,      
+ 2075, 10 0,      
+ 2085, 00 0, ERROR
+ 2095, 00 1, ERROR
+ 2105, 00 1,      
+ 2115, 00 1,      
+ 2125, 00 1,      
+ 21

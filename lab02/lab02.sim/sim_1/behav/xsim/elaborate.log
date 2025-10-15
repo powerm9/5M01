@@ -5,6 +5,7 @@ Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'out' [C:/Users/mattp/MAI/5M01/lab02/lab02.srcs/sim_1/new/car_check_tb.v:36]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
@@ -13,6 +14,8 @@ Compiling module xil_defaultlib.debouncer
 Compiling module xil_defaultlib.fsm
 Compiling module xil_defaultlib.counter
 Compiling module xil_defaultlib.car_check
+Compiling module xil_defaultlib.stim_gen(EN=10)
+Compiling module xil_defaultlib.scoreboard
 Compiling module xil_defaultlib.car_check_tb
 Compiling module xil_defaultlib.glbl
 Built simulation snapshot car_check_tb_behav

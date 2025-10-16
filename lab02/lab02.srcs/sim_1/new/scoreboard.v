@@ -1,17 +1,27 @@
 `timescale 1ns / 1ps
 
 module scoreboard (
-     input wire clk, rst, inc_exp, dec_exp, out
+     input wire clk, a, b, rst, inc_exp, dec_exp,
+     input wire [3:0] out
     );
     
-    reg inc_exp_old, dec_exp_old, rst_old, out_old, gold;
+    reg inc_exp_old, dec_exp_old, rst_old;
+    reg [3:0] out_old, gold;
     reg [39:0] err_msg;
+    integer log_file;
+    
+    initial $display("time inc dec gold out err ");
     
     initial
-    $display("time inc dec out err ");
+    begin
+            log_file = $fopen("car_test.txt");
+        if (log_file == 0)
+            $display("failed to open log_file");
+    end 
     
     always @(posedge clk)
-    begin
+    begin        
+
         inc_exp_old <= inc_exp;
         dec_exp_old <= dec_exp;
         rst_old <= rst;
@@ -33,8 +43,14 @@ module scoreboard (
         else 
             err_msg = "ERROR";
     
-        $display("%5d, %b%b %d, %s",
-                 $time, inc_exp, dec_exp, out, err_msg);
+        $display("%5d,      %b      %b      %d      %d,     %s",
+            $time, inc_exp, dec_exp, gold, out, err_msg);
     end
     
+    always @(posedge clk) 
+    begin                       
+     $fdisplay (log_file, "                                     %b      %b      %d      %d      %s",
+        inc_exp, dec_exp, gold, out, err_msg);
+    end    
+        
 endmodule

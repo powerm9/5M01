@@ -9,8 +9,7 @@ module car_check_tb;
     wire [3:0]led;
     wire inc_exp;
     wire dec_exp;
-
-    // Instantiate DUT (Device Under Test)
+        
     car_check uut (
         .clk(clk),
         .btn_a(a),
@@ -19,7 +18,7 @@ module car_check_tb;
         .led(led)
     );  
     
-    stim_gen #(.EN(10), .EX(3)) gen_unit (
+    stim_gen #(.EN(15), .EX(15)) gen_unit (
         .clk(clk), 
         .a(a), 
         .b(b), 
@@ -31,9 +30,12 @@ module car_check_tb;
     scoreboard mon_unit (
         .clk(clk),
         .rst(rst),
+        .a(a),
+        .b(b),
         .inc_exp(inc_exp),
         .dec_exp(dec_exp),
         .out(led)
     );
+    
 
 endmodule

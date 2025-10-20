@@ -1,1 +1,7 @@
 Breakpoint File Version 1.0
+47,true,"C:/Users/mpowe/5M01/lab02/lab02.srcs/sim_1/new/stim_gen.v"
+48,true,"C:/Users/mpowe/5M01/lab02/lab02.srcs/sim_1/new/stim_gen.v"
+46,true,"C:/Users/mpowe/5M01/lab02/lab02.srcs/sim_1/new/stim_gen.v"
+45,true,"C:/Users/mpowe/5M01/lab02/lab02.srcs/sim_1/new/stim_gen.v"
+44,true,"C:/Users/mpowe/5M01/lab02/lab02.srcs/sim_1/new/stim_gen.v"
+45,true,"C:/Users/mpowe/5M01/lab02/lab02.srcs/sources_1/new/fsm2.v"

@@ -5,13 +5,16 @@ module scoreboard (
      input wire [3:0] out
     );
     
+    //declare reg's and log file
     reg inc_exp_old, dec_exp_old, rst_old;
     reg [3:0] out_old, gold;
     reg [39:0] err_msg;
     integer log_file;
     
+    //output to tcl console
     initial $display("  time   a   b   rst   inc   dec   gold   out   err ");
     
+    //output to log file
     initial
     begin
         log_file = $fopen("car_test.txt");
@@ -20,6 +23,7 @@ module scoreboard (
         $fdisplay(log_file, "  time     a      b      rst    inc     dec    gold     out     err ");
     end 
     
+    //store the current signals so that we can add expected output and match with other modules
     always @(posedge clk)
     begin        
         rst_old <= rst;
@@ -27,7 +31,7 @@ module scoreboard (
         dec_exp_old <= dec_exp;
         out_old <= out;
     
-    // get expected value from sending enter and exit in stim gen
+    // if rst set gold 0, if inc expected from stim gen add 1 on, if dec etc... if nothing set gold to last out output
         if (rst_old)
             gold = 0;
         else if (inc_exp_old)
@@ -37,7 +41,7 @@ module scoreboard (
         else 
             gold = out_old;
          
-        // error message
+        // error message setting (i also made exit and enter as it was hard to see inc and dec in log file)
         if (out == gold & inc_exp)
             err_msg = "ENTER";
             
@@ -49,11 +53,11 @@ module scoreboard (
             
         else 
             err_msg = "ERROR";
-    
+        //display in console
         $display("%5d,      %b      %b      %d      %d,     %s",
             $time, inc_exp, dec_exp, gold, out, err_msg);
     end
-    
+    //output all stimulus and monitor output to log file
     always @(posedge clk) 
     begin
      $fdisplay(log_file, "____________________________________________________________________________");     

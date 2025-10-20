@@ -18,7 +18,7 @@ module car_check_tb;
         .led(led)
     );  
     
-    stim_gen #(.EN(15), .EX(15)) gen_unit (
+    stim_gen gen_unit (
         .clk(clk), 
         .a(a), 
         .b(b), 

@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module stim_gen #(parameter EN = 9, EX = 3)
+module stim_gen
   ( 
    output reg clk,    
    output reg a,  
@@ -18,15 +18,25 @@ module stim_gen #(parameter EN = 9, EX = 3)
     initial
     begin
         log_file = $fopen("car_test.txt");
-        if (log_file == 0)
-            $display("failed to open log_file");
-        $fdisplay(log_file, "       time     a      b     rst     inc    dec    gold    out    err_msg");
-
         init();
-        #100
-        enter(EN);
-        #100
-        exit(EX);
+        #10
+        enter(15);
+        #10
+        exit(15);
+        #10
+        enter(5);
+        set_rst();
+        #10
+        set_inc();
+        enter(10);
+        #10
+        set_dec();
+        exit(15);
+        set_inc();
+        set_inc();
+        set_inc();
+        set_rst();
+        #10
         $fclose(log_file);
         $stop;
     end
@@ -51,10 +61,9 @@ module stim_gen #(parameter EN = 9, EX = 3)
         #10 a = 1; b = 0;
         #10 a = 1; b = 1;  // should go to sensab
         #10 a = 0; b = 1;  // should reach enter -> out asserted
-        #10;
+        #10 a = 0; b = 0;  // return to 
         #10 inc_exp = 1;
         #10 inc_exp = 0;
-        #10 a = 0; b = 0;  // return to idle
         end
     end
     endtask  
@@ -65,18 +74,36 @@ module stim_gen #(parameter EN = 9, EX = 3)
         #10 a = 0; b = 1;
         #10 a = 1; b = 1;  // should go to sensab
         #10 a = 1; b = 0;  // should reach enter -> out asserted
-        #10;
+        #10 a = 0; b = 0;  // return to 
         #10 dec_exp = 1;
         #10 dec_exp = 0;
-        #10 a = 0; b = 0;  // return to 
+ 
         end
     end
     endtask    
     
-    always @(posedge clk) 
+    task set_rst();
     begin
-        $fdisplay (log_file, "%10d      %b      %b      %b",
-                                   $time,   a, b, rst);
+        rst = 1'b1;
+        #2;
+        rst = 1'b0;
     end
+    endtask
+    
+    task set_inc();
+    begin
+        inc_exp = 1'b1;
+        #10;
+        inc_exp = 1'b0;
+    end
+    endtask
+    
+    task set_dec();
+    begin 
+        dec_exp = 1'b1;
+        #10;
+        dec_exp = 1'b0;
+    end
+    endtask
         
 endmodule
